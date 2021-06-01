@@ -14,7 +14,7 @@
 
 ## Description
 
-A full featured social travel dashboard linking travelers with the tools and community they need to plan and execute a lifetime of adventures. This application is being built to combine my passion for travel, with the desire to create a SaaS style dashboard full of useful componennts and tools for travelers.
+A full featured social travel dashboard linking travelers with the tools and community they need to plan and execute a lifetime of adventures. This application is being built to combine my passion for travel, with the desire to create a SaaS style dashboard full of useful components and tools for travelers.
 
 <!-- <div align="center">
 <img src="">
