@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img width="412" height="167" src="https://i.imgur.com/g8PQgMQ.png">
+  <img width="495" height="334" src="https://i.imgur.com/g8PQgMQ.png">
 </p>
 
 ---
@@ -37,22 +37,22 @@ Full stack: Node with Express, React, MongoDB, Google OAuth 2.0, deployed with H
 
 ## Packages/Dependencies
 
-  "dependencies": 
-    "connect-mongo": "^4.4.1",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.2",
-    "express-session": "^1.17.2",
-    "method-override": "^3.0.0",
-    "moment": "^2.29.1",
-    "mongoose": "^5.12.11",
-    "morgan": "^1.10.0",
-    "passport": "^0.4.1",
-    "passport-google-oauth20": "^2.0.0"
-  
-  "devDependencies": 
-    "cross-env": "^7.0.3",
-    "nodemon": "^2.0.7"
+    "dependencies": 
+        "connect-mongo": "^4.4.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.2",
+        "express-session": "^1.17.2",
+        "method-override": "^3.0.0",
+        "moment": "^2.29.1",
+        "mongoose": "^5.12.11",
+        "morgan": "^1.10.0",
+        "passport": "^0.4.1",
+        "passport-google-oauth20": "^2.0.0"
+    
+    "devDependencies": 
+        "cross-env": "^7.0.3",
+        "nodemon": "^2.0.7"
 
 
 ## Current features and future additions
