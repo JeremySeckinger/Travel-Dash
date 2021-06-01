@@ -6,7 +6,7 @@ module.exports = function(passport) {  //passport brought in from server.js
     passport.use(new GoogleStrategy({
         clientID : process.env.GOOGLE_CLIENT_ID,
         clientSecret : process.env.GOOGLE_CLIENT_SECRET,
-        callbackURL: '/auth/google/callback'
+        callbackURL: 'https://traveldashboard.herokuapp.com/auth/google/callback'
     },
     async (accessToken, refreshToken, profile, done) => { // using async await since dealing with mongoose  done is callback when finished doing what we intend
         const newUser = { //creating new user from google profile on signin
