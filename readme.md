@@ -71,6 +71,7 @@ Right now this project's functionality allows user's to:
 
 ## Tasks
     
+   - [ ] Create an alert partial that triggers when deleting trips
    - [ ] Divide trips into "upcoming" and "past" trips 
             - [ ] For "upcoming" add inputs for flight details, schedule/agenda, places to visit/must do's,
             - [ ] For "past" add inputs for trips including dates traveled, locations visited, trip highlights, connections made, what went right, what went wrong, 
