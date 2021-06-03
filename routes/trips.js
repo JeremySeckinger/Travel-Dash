@@ -4,13 +4,13 @@ const {ensureAuth} = require('../middleware/auth') //using destructuring to brin
 
 const Trip = require('../models/Trip') //brings in Trip model
 
-// @desc Show add page
+//* @desc Show add page
 // @route GET /trips/add
 router.get('/add', ensureAuth, (req, res) => { 
     res.render('trips/add')
 })
 
-// @desc Process add form
+//* @desc Process add form
 // @route POST /trips
 router.post('/', ensureAuth, async (req, res) => { 
     try {
@@ -23,7 +23,7 @@ router.post('/', ensureAuth, async (req, res) => {
     }
 })
 
-// @desc Show all trips
+//* @desc Show all trips
 // @route GET /trips
 router.get('/', ensureAuth, async (req, res) => {   //get request for trips with async await (mongoose) and try/catch
     try {
@@ -42,7 +42,7 @@ router.get('/', ensureAuth, async (req, res) => {   //get request for trips with
     }
 })
 
-// @desc Show single trip
+//* @desc Show single trip
 // @route GET /trips/:id
 router.get('/:id', ensureAuth, async (req, res) => { 
     try {
@@ -64,7 +64,7 @@ router.get('/:id', ensureAuth, async (req, res) => {
     }
 })
 
-// @desc Show edit page
+//* @desc Show edit page
 // @route GET /trips/edit/:id
 router.get('/edit/:id', ensureAuth, async (req, res) => { //async/await get request for edit trip page
     try {
@@ -89,7 +89,7 @@ router.get('/edit/:id', ensureAuth, async (req, res) => { //async/await get requ
     }
 })
 
-// @desc Show Update trip
+//* @desc Show Update trip
 // @route PUT trips/:id
 router.put('/:id', ensureAuth, async (req, res) => { 
     try {
@@ -115,7 +115,7 @@ router.put('/:id', ensureAuth, async (req, res) => {
     }
 })
 
-// @desc Delete trip
+//* @desc Delete trip
 // @route DELETE /trips/:id
 router.delete('/:id', ensureAuth, async (req, res) => { 
     try {
@@ -127,7 +127,7 @@ router.delete('/:id', ensureAuth, async (req, res) => {
     }
 })
 
-// @desc User Trips
+//* @desc User Trips
 // @route GET /trips/user/:userId
 router.get('/user/:userId', ensureAuth, async (req, res) => { 
     try {
