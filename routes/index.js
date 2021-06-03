@@ -4,7 +4,7 @@ const {ensureAuth, ensureGuest} = require('../middleware/auth') //using destruct
 
 const Trip = require('../models/Trip') //brings in Trip model
 
-// @desc Login/Landing page
+//* @desc Login/Landing page
 // @route GET / 
 router.get('/', ensureGuest, (req, res) => { //whenever middleware is used as a route it is added as a second argument--->ensureGuest added here for user that is not logged in
     res.render('login', {
@@ -12,7 +12,7 @@ router.get('/', ensureGuest, (req, res) => { //whenever middleware is used as a 
     })
 })
 
-// @desc Dashboard
+//* @desc Dashboard
 // @route GET /dashboard
 router.get('/dashboard', ensureAuth, async (req, res) => { //ensureAuth added for logged in user from auth middleware function
     try {
