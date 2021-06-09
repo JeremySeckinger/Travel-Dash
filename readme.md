@@ -11,6 +11,8 @@
 
 :construction:  Under Construction  :construction:  Current site progress (MVP) can be [viewed here](https://traveldashboard.herokuapp.com/) 
 
+Project migration to new project structure with React as a dedicated frontend and Node as a true backend has begun [here](https://github.com/JeremySeckinger/Travel-Dash-Node-React). Note the migration is in its infancy and architecture and stack will be evolving as the project progresses. 
+
 
 ## Description
 
