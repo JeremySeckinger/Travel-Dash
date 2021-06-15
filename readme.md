@@ -9,10 +9,11 @@
 
 # Travel Dash 
 
-:construction:  Under Construction  :construction:  Current site progress (MVP) can be [viewed here](https://traveldashboard.herokuapp.com/) 
+Current site can be [viewed here](https://traveldashboard.herokuapp.com/) 
 
+:construction:
 Project migration to new project structure with React as a dedicated frontend and Node as a true backend has begun [here](https://github.com/JeremySeckinger/Travel-Dash-Node-React). Note the migration is in its infancy and architecture and stack will be evolving as the project progresses. 
-
+:construction: 
 
 ## Description
 
@@ -30,11 +31,11 @@ Travel Dash is inspired by this new generation. The aim is to capture the utilit
 
 ## Technologies used
 
-Current stack for MVP: Node with Express, Handlebars, MongoDB, Google OAuth 2.0, Materialize, deployed with Heroku
+Current stack: Node with Express, Handlebars, MongoDB, Google OAuth 2.0, Materialize, deployed with Heroku
 
 I will be adding a lot to this project in the coming days, and will soon be using the updated stack below:
 
-Full stack: Node with Express, React, MongoDB, Google OAuth 2.0, deployed with Heroku, and serving images using Cloudinary
+Full stack: Node with Express, React, Redux, Redux-thunk, Bootstrap 5, MongoDB, Google OAuth 2.0, deployed with Heroku, and serving images using Cloudinary
 
 
 ## Packages/Dependencies
@@ -71,7 +72,7 @@ Right now this project's functionality allows user's to:
 
 ---
 
-## Tasks
+## Potential tasks for future React version
     
    - [ ] Create an alert partial that triggers when deleting trips
    - [ ] Divide trips into "upcoming" and "past" trips 
@@ -100,7 +101,7 @@ Right now this project's functionality allows user's to:
         - [ ] Prioritize the update friends/family feature
 
 
-## Features to be added (dashboard tools)
+## Potential Features to be added (dashboard tools)
    - [ ] Mapping to plot trips, and view where other users have been
    - [ ] Budgeting tool 
    - [ ] Resources section to save research 
