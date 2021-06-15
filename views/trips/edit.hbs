@@ -1,4 +1,4 @@
-<h3>Edit Trip</h3>
+<h3 class="cyan-text text-darken-4">Edit Trip</h3>
 <div class="row">
     <form action="/trips/{{trip._id}}" method="POST" class="col s12">
         {{!-- hidden input used to replace the POST with a PUT, alternative to using frontend JS with fetch request or axios --}}
@@ -6,7 +6,7 @@
         <div class="row">
             <div class="input-field">
                 <input type="text" id="title" name="title" value="{{trip.title}}">
-                <label for="title">Title</label>
+                <label class="cyan-text text-darken-4" for="title">Title</label>
             </div>
         </div>
 
@@ -19,7 +19,7 @@
                     <option value="private">Private</option>
                     {{/select}}
                 </select>
-                <label for="status">Status</label>
+                <label class="cyan-text text-darken-4" for="status">Status</label>
             </div>
         </div>
 

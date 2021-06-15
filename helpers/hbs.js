@@ -20,7 +20,7 @@ module.exports = {
     },
     //stripTags strips tags from input text
     stripTags: function (input) {
-        return input.replace(/<(?:.|\n)*?>/gm, '') //regular expression that looks for any front and back angle brackets and replace it with nothing
+        return input.replace(/(<([^>]+)>)/ig, '') //regular expression that looks for any front and back angle brackets and replace it with nothing
     },
     editIcon: function (tripUser, loggedUser, tripId, floating = true) {
         if (tripUser._id.toString() == loggedUser._id.toString()) { //converting tripUser id to string and comparing it to logged in users id

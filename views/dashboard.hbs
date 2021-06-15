@@ -1,6 +1,9 @@
-<h5 class="indigo-text">Dashboard</h5>
+<div class="striped grey lighten-2 z-depth-5">
+<div class="dashboard-header">
+<h5 class="indigo-text dashboard-title">Dashboard</h5>
 <h3 class="indigo-text text-darken-4">Welcome {{name}}</h3>
 <h6 class="cyan-text text-darken-4">Here is your personal travel dashboard</h6>
+</div>
 {{!-- checks to see if there are any trips created by user, uses if else handlebars syntax --}}
 {{#if trips}} 
     <table class="striped grey lighten-2 z-depth-5 hoverable">
@@ -40,3 +43,4 @@
 {{else}}
 <p>You dont have any trips</p>
 {{/if}}
+</div>

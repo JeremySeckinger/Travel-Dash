@@ -8,6 +8,7 @@ module.exports = function(passport) {  //passport brought in from server.js
         clientSecret : process.env.GOOGLE_CLIENT_SECRET,
         callbackURL: 'https://traveldashboard.herokuapp.com/auth/google/callback'  //added full callback URL when deploying to heroku otherwise it wasn't working as https 
     },
+    
     async (accessToken, refreshToken, profile, done) => { // using async await since dealing with mongoose  done is callback when finished doing what we intend
         const newUser = { //creating new user from google profile on signin
             googleId: profile.id,

@@ -28,3 +28,17 @@ p {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.dashboard-header {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dashboard-title {
+    padding-top: 10px;
+}
+
+.card-height {
+    height: 355px;
+}
