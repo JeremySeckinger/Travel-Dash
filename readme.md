@@ -25,7 +25,7 @@ A full featured social travel dashboard linking travelers with the tools and com
 
 ## Vision
 
-As an avid budget-traveler I'm part of a generation that values experiences over things. Globalization has paved the way for our new generation of travelers, and as technology allows us to become increasingly nomadic while we make a living, we change how we operate. Instead of saving for a down payment on a house we can't afford--we save to see the world.  Instead of settling down to have kids we invest in our own experiences because we are a generation that understands what we have today could very well be gone tomorrow, and we want to live a great story. 
+As an avid budget-traveler I'm part of a generation that values experiences over things. Globalization has paved the way for our new generation of travelers, and as technology allows us to become increasingly nomadic while we make a living, we change how we operate. Instead of saving for a down payment on a house and settling down to have kids--we save to see the world and we invest in our own experiences. We are a generation that understands what we have today could very well be gone tomorrow, and we want to live a great story. 
 
 Travel Dash is inspired by this new generation. The aim is to capture the utility of technology to create curated spaces--expanding travel potential by contributing to an ecosystem founded on a culture of sharing, preservation, and mindfulness. 
 
